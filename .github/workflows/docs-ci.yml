@@ -1,0 +1,12 @@
+name: Docs CI
+on:
+  push:
+    paths: ['docs/**','.github/workflows/**']
+  pull_request:
+    paths: ['docs/**','.github/workflows/**']
+jobs:
+  ok:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: echo "Docs CI ok"

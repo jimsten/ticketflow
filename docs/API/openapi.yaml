@@ -1,0 +1,20 @@
+openapi: 3.0.3
+info:
+  title: TicketFlow API (draft)
+  version: 0.1.0
+paths:
+  /auth/login:
+    post:
+      summary: 手机号登录（草案）
+      responses:
+        '200': { description: OK }
+  /schedules:
+    get:
+      summary: 分页查场次（草案）
+      responses:
+        '200': { description: OK }
+  /orders:
+    post:
+      summary: 提交预约/抢票（草案）
+      responses:
+        '200': { description: OK }
