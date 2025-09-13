@@ -1,0 +1,14 @@
+# Build & IDE
+target/
+out/
+.idea/
+*.iml
+.vscode/
+
+# Logs
+logs/
+*.log
+
+# OS junk
+.DS_Store
+Thumbs.db
