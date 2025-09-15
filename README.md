@@ -1,9 +1,8 @@
 # TicketFlow / 闪约
 Status: docs skeleton ready, backend init next.
-## Getting Started (Backend - TicketFlow)
 
 ### Prerequisites
-- JDK 17+（IDEA 已配置）
+- JDK 21（IDEA 已配置）
 - Maven（项目已带 Wrapper；IDEA 直接导入即可）
 - 本地可安装 MySQL、Redis（当前 MVP 不强依赖连接，后续模块会用）
 
