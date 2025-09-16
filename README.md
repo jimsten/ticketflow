@@ -17,3 +17,7 @@ Status: docs skeleton ready, backend init next.
 - OpenAPI（JSON 合同，供 Apifox 导入）：`http://localhost:8082/v3/api-docs`
 
 > 说明：springdoc 会在运行时自动扫描 `@RestController` 与 `@*Mapping`，默认在 `/v3/api-docs` 暴露 OpenAPI 3 JSON，无需额外配置。
+
+- POST /api/auth/login → {"token":"demo-token"}
+- GET /api/me （需 Authorization: Bearer demo-token）→ {"uid":1}
+
